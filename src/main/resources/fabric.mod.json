@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "muck",
+  "version": "1.17",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Muck",
+  "description": "First Mod by Muks, Trademark by Boio.",
   "authors": [
-    "Me!"
+    "Muks"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "email": "mukundmarvel4@gmail.com",
+    "homepage": "https://github.com/Mukshub",
+    "sources": "https://github.com/Mukshub/titanium_mod_ForFabric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/muck/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.muks.capes.registry.Muck"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,8 @@
     "java": ">=16"
   },
   "suggests": {
-    "another-mod": "*"
+    "another-mod": "MoreCopper by MGO9NG",
+    "another_mod": "BoioClient(BOC) by RanCraftPlayz"
+
   }
 }
